@@ -18,7 +18,7 @@ document.getElementById("myForm").onsubmit = function (event) {
     function (response) {
       console.log("Sent successfully:", response);
       otp.value = "";
-      location.href = "index.html";
+      location.href = "opp.html";
     },
     function (error) {
       console.log("Failed to send:", error);
